@@ -1,0 +1,27 @@
+nav{
+    width: 15%;
+    height: 100vh;
+    border-right: 1px solid black;
+    padding-top: 20px;
+    float: left;
+}
+
+#clipart_category_title{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+nav div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 20%;
+}
+
+.clipart_category{
+    display: inline-block;
+    padding-bottom: 5px;
+}

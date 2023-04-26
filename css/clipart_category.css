@@ -1,0 +1,30 @@
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+}
+
+#clipart_category{
+    display: flex;
+    justify-content: center;
+}
+#clipart_category_table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+#clipart_category_table caption{
+    margin: 3px;
+    font-weight: bold;
+}
+#clipart_category_table td, th{
+    border-bottom: 1px solid black;
+    border-spacing: 3px;
+}
+#clipart_category_table th{
+    border-top: 1px solid black;
+}
+
+#clipart_category_register{
+    margin-top: 20px;
+}

@@ -1,0 +1,38 @@
+content{
+    width: 84%;
+    float: right;
+}
+
+#clipart_content_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 2%;
+}
+#clipart_content_header span, i{
+    display: inline-block;
+}
+#clipart_content_header{
+    font-weight: bold;
+}
+
+#clipart_content_search{
+    display: flex;
+    align-items: center;
+}
+#clipart_content_search input{
+    margin-left: 7px;
+}
+
+#clipart_content{
+    margin-left: 2%;
+}
+.clipart_content_image{
+    height: 100px;
+    width: 100px;
+    padding: 7px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}

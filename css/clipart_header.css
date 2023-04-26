@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-bottom: 2px solid black;
+    width: 100%;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+}
+
+#title{
+    margin: 20px; 
+}
+
+#menu-bar{
+    margin: 20px;
+}
+
+#menu-bar i{
+    padding-left: 20px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="uft-8" />
+    <title>클립아트 목록</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/clipart_header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/clipart_category.css" />
+
+    <script
+      src="https://kit.fontawesome.com/2e6fd2c0e0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">CLIP - MANAGER</h1>
+      <div id="menu-bar">
+        <a href="clipart_upload.html"><i class="fas fa-upload fa-2x"></i></a>
+        <a href="clipart_category.html"><i class="fas fa-house fa-2x"></i></a>
+        <a href="login.html"><i class="fas fa-sign-out fa-2x"></i></a>
+      </div>
+    </header>
+
+    <main>
+      <div id="clipart_category">
+        <table id="clipart_category_table">
+          <caption>
+            분류 목록
+          </caption>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>개수</th>
+            <th>수정</th>
+            <th>삭제</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>사람</td>
+            <td>2</td>
+            <td>수정</td>
+            <td>삭제</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>자동차</td>
+            <td>0</td>
+            <td>수정</td>
+            <td>삭제</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>식물</td>
+            <td>3</td>
+            <td>수정</td>
+            <td>삭제</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><a href="clipart_category_computer.html">컴퓨터</a></td>
+            <td>4</td>
+            <td>수정</td>
+            <td>삭제</td>
+          </tr>
+        </table>
+      </div>
+      <div id="clipart_category_register">
+        <input
+          id="clipart_category_register-button"
+          type="button"
+          value="분류 등록"
+        />
+      </div>
+    </main>
+  </body>
+</html>

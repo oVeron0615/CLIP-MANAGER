@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="uft-8" />
+    <title>클립아트 목록</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/clipart_header.css" />
+    <link rel="stylesheet" type="text/css" href="../css/clipart_nav.css" />
+    <link rel="stylesheet" type="text/css" href="../css/clipart_content.css" />
+
+    <script
+      src="https://kit.fontawesome.com/2e6fd2c0e0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">CLIP - MANAGER</h1>
+      <div id="menu-bar">
+        <a href="clipart_upload.html"><i class="fas fa-upload fa-2x"></i></a>
+        <a href="clipart_category.html"><i class="fas fa-house fa-2x"></i></a>
+        <a href="login.html"><i class="fas fa-sign-out fa-2x"></i></a>
+      </div>
+    </header>
+    <nav>
+      <span id="clipart_category_title">분류 목록</span>
+      <div>
+        <span class="clipart_category">사람</span>
+        <span class="clipart_category">자동차</span>
+        <span class="clipart_category">식물</span>
+        <span class="clipart_category" style="font-weight: bold">컴퓨터</span>
+      </div>
+    </nav>
+    <content>
+      <div id="clipart_content_header">
+        <span>컴퓨터</span>
+        <div id="clipart_content_search">
+          <i class="fas fa-search"></i>
+          <form>
+            <input type="text" placeholder="클립아트 검색" required />
+            <input type="submit" value="검색" />
+          </form>
+        </div>
+      </div>
+      <div id="clipart_content">
+        <img class="clipart_content_image" src="../image/computer (1).png" />
+        <img class="clipart_content_image" src="../image/computer.png" />
+        <img class="clipart_content_image" src="../image/online-test.png" />
+        <img class="clipart_content_image" src="../image/settings.png" />
+      </div>
+    </content>
+  </body>
+</html>
