@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../css/clipart_header.css" />
     <link rel="stylesheet" type="text/css" href="../css/clipart_category.css" />
 
+    <script src="../js/clipart_category.js"></script>
     <script
       src="https://kit.fontawesome.com/2e6fd2c0e0.js"
       crossorigin="anonymous"
@@ -31,39 +32,10 @@
             분류 목록
           </caption>
           <tr>
-            <th>No.</th>
             <th>Name</th>
             <th>개수</th>
             <th>수정</th>
             <th>삭제</th>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>사람</td>
-            <td>2</td>
-            <td>수정</td>
-            <td>삭제</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>자동차</td>
-            <td>0</td>
-            <td>수정</td>
-            <td>삭제</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>식물</td>
-            <td>3</td>
-            <td>수정</td>
-            <td>삭제</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td><a href="clipart_category_computer.html">컴퓨터</a></td>
-            <td>4</td>
-            <td>수정</td>
-            <td>삭제</td>
           </tr>
         </table>
       </div>
@@ -72,6 +44,7 @@
           id="clipart_category_register-button"
           type="button"
           value="분류 등록"
+          onclick="clickCategoryRegister()"
         />
       </div>
     </main>
